@@ -1,3 +1,5 @@
 all: picmaker.py 
-	gcc -o pmaker picmaker.py  
-	./pmaker
+	python3 picmaker.py
+	convert image.ppm image.png
+	display image.png  
+	
